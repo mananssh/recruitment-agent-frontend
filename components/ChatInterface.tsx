@@ -83,9 +83,9 @@ export default function ChatInterface() {
     return (
         <div className="flex flex-col h-dvh bg-[#0D0D0D]">
             <div className="flex flex-col items-center justify-start text-center">
-                <h1 className="text-2xl flex flex-row justify-between font-bold p-4 border-b border-[#1E1E1E] w-full">
+                <h1 className="text-2xl flex flex-col gap-2 md:gap-0 md:flex-row justify-between font-bold p-4 border-b border-[#1E1E1E] w-full">
                     DelCap Recruitment AI Agent
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center justify-center gap-2">
                         <label htmlFor="email" className="text-sm text-gray-400">
                             Active Email:
                         </label>
